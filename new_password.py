@@ -5,4 +5,4 @@ username = input('Enter username: ')
 password = input('Enter password: ')
 
 with open('passwords.txt', 'a') as f:
-    f.write('{0} {1}'.format(username, password))
+    f.write('{0} {1}\n'.format(username, password))
